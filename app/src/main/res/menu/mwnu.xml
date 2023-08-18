@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item android:id="@+id/cand"
+        android:title="Candidates"
+        android:icon="@drawable/candidates"
+        />
+    <item android:id="@+id/voting"
+        android:title="Vote"
+        android:icon="@drawable/vote"
+        />
+    <item android:id="@+id/newreg"
+
+        android:icon="@drawable/baseline_how_to_reg_24"
+        android:title="Register" />
+    <item android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/person"/>
+
+
+
+</menu>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "744222699256",
+    "project_id": "voting-app-iitj",
+    "storage_bucket": "voting-app-iitj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744222699256:android:0100f1ea27b8d0c0e7150d",
+        "android_client_info": {
+          "package_name": "com.example.votingiitj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744222699256-51404jv86i6pecn1r3tk7ve7ndr41qfm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSo_RWwtsZ2X_O5_rRf_8gMpvUjuQtWsQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744222699256-51404jv86i6pecn1r3tk7ve7ndr41qfm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

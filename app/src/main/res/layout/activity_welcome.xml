@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".welcome"
+    android:background="@drawable/welcomeback"
+    android:alpha="0.6"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Voting App"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This App facilitates you to Vote for the Candidates for the upcoming Elections. It also allows you to stand in Elections by submitting your Form"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"/>
+
+    <ImageView
+        android:layout_width="349dp"
+        android:layout_height="342dp"
+        android:src="@drawable/voting"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/signin"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="SIGN IN"
+            android:elevation="100dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/butt"
+            android:textColor="@color/white"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/signup"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:elevation="100dp"
+            android:background="@drawable/butt"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>
